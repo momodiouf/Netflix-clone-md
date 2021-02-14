@@ -1,0 +1,97 @@
+.img-detail{
+    width: 100%;
+    height:500px;
+    ;
+}
+.N{
+    width:18px;
+    height:30px;
+
+}
+.intro{
+    color:white;
+    padding-left:3px;
+ padding-bottom:10px;
+}
+.title{
+    color:white;
+    border: 3px solid red;
+    display:inline-flex;
+    margin-top:10px;
+}
+.title h1{
+    padding: 0px 10px 0px 10px;
+    font-weight: bolder;
+    
+      text-shadow: 2px 2px 4px #36576d;
+}
+.movie-description{
+    color: rgb(243, 233, 233);
+    font-size:18px;
+    text-align: justify;
+}
+.movie-interact{
+    text-align: center;
+    margin-top:15px;
+}
+.movie-interact-button{
+    margin:3px;
+    background: rgb(71, 64, 64);
+    color: rgb(230, 224, 217);
+       padding: 5px 10px 5px 10px;
+       border:none;
+}
+
+.data-div{
+    margin-top:10px;
+}
+.wrapper
+{
+    margin-top:20px;
+}
+.wrapper .similar-movies{
+    text-align-last: center;
+    color:navajowhite;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+.centered-title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgb(238, 18, 37);
+}
+}
+@media only screen and (min-width: 768px) {
+.movie-similar{
+    height:250px;
+}
+.centered-title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgb(238, 18, 37);
+}
+}
+
+.movie-list-descrip{
+  background:navajowhite;
+ width: 100%;
+  color:rgb(22, 3, 3);
+    text-align:center;
+}
+
+.more-details{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(243, 233, 233);
+
+}
